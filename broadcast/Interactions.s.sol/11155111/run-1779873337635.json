@@ -1,0 +1,89 @@
+{
+  "transactions": [
+    {
+      "hash": "0xb425357bfcf2b788b920ef0d9364a154ba6ab346b656dfb15f938b295756543b",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x1998b65576ca8d8f57e68f5c1dd569c78c6264bd",
+      "function": "mint(address,bytes32[])",
+      "arguments": [
+        "0x002a5e5E33990194FB51E6dE9a86b6aabb293cBB",
+        "[0xb020d7f4296a1630fca94fa7b375d844bdf7a6eb80d6c57d65896a2cad9a1dce, 0x485cced89826cf7e0bb1a1f764abd959274947ab8970b4ee860ef2762bd68d0a]"
+      ],
+      "transaction": {
+        "from": "0x002a5e5e33990194fb51e6de9a86b6aabb293cbb",
+        "to": "0x1998b65576ca8d8f57e68f5c1dd569c78c6264bd",
+        "gas": "0x1cb8e",
+        "value": "0x2386f26fc10000",
+        "input": "0x7bf32270000000000000000000000000002a5e5e33990194fb51e6de9a86b6aabb293cbb00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000002b020d7f4296a1630fca94fa7b375d844bdf7a6eb80d6c57d65896a2cad9a1dce485cced89826cf7e0bb1a1f764abd959274947ab8970b4ee860ef2762bd68d0a",
+        "nonce": "0x8e",
+        "chainId": "0xaa36a7"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "status": "0x1",
+      "cumulativeGasUsed": "0x15eda51",
+      "logs": [
+        {
+          "address": "0x1998b65576ca8d8f57e68f5c1dd569c78c6264bd",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x000000000000000000000000002a5e5e33990194fb51e6de9a86b6aabb293cbb",
+            "0x0000000000000000000000000000000000000000000000000000000000000002"
+          ],
+          "data": "0x",
+          "blockHash": "0xb95ea21a2728487f1dd0a731aaff5b818f780aba9fb0279e795789c01c8cdf05",
+          "blockNumber": "0xa6d038",
+          "blockTimestamp": "0x6a16b638",
+          "transactionHash": "0xb425357bfcf2b788b920ef0d9364a154ba6ab346b656dfb15f938b295756543b",
+          "transactionIndex": "0xc2",
+          "logIndex": "0x256",
+          "removed": false
+        },
+        {
+          "address": "0x1998b65576ca8d8f57e68f5c1dd569c78c6264bd",
+          "topics": [
+            "0x769eff512f395b679667e0062a0e31dad5d22dbc7e6b87f16c3de7e85e663460",
+            "0x0000000000000000000000000000000000000000000000000000000000000003",
+            "0x000000000000000000000000002a5e5e33990194fb51e6de9a86b6aabb293cbb"
+          ],
+          "data": "0x",
+          "blockHash": "0xb95ea21a2728487f1dd0a731aaff5b818f780aba9fb0279e795789c01c8cdf05",
+          "blockNumber": "0xa6d038",
+          "blockTimestamp": "0x6a16b638",
+          "transactionHash": "0xb425357bfcf2b788b920ef0d9364a154ba6ab346b656dfb15f938b295756543b",
+          "transactionIndex": "0xc2",
+          "logIndex": "0x257",
+          "removed": false
+        }
+      ],
+      "logsBloom": "0x04000000000000000000001000000000000000000000010000000000010000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000008000000000000000000000000800000000000000000000000020000000000000000000800000000000000000000000010000000000000000000000000000000000000000000000000008000000000000000000000000000000008010100000100000010000000000000800000000000000000400000000002000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000008000000000000000000000",
+      "type": "0x2",
+      "transactionHash": "0xb425357bfcf2b788b920ef0d9364a154ba6ab346b656dfb15f938b295756543b",
+      "transactionIndex": "0xc2",
+      "blockHash": "0xb95ea21a2728487f1dd0a731aaff5b818f780aba9fb0279e795789c01c8cdf05",
+      "blockNumber": "0xa6d038",
+      "gasUsed": "0x13a3a",
+      "effectiveGasPrice": "0xda3cd8bd",
+      "from": "0x002a5e5e33990194fb51e6de9a86b6aabb293cbb",
+      "to": "0x1998b65576ca8d8f57e68f5c1dd569c78c6264bd",
+      "contractAddress": null
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "returns": {
+    "0": {
+      "internal_type": "bool",
+      "value": "true"
+    }
+  },
+  "timestamp": 1779873337635,
+  "chain": 11155111,
+  "commit": null
+}

@@ -290,20 +290,3 @@ Run Sepolia fork tests:
 ```bash
 forge test --fork-url $SEPOLIA_URL -vvvv
 ```
-
-## Notes
-
-Before committing the README, verify these exact paths in your repo:
-
-- `script/GenerateInput.s.sol`
-- `script/MakeMerkle.s.sol`
-- `script/DeployPFPNft.s.sol`
-- `script/Interactions.s.sol`
-- `script/target/input.json`
-- `script/target/output.json`
-- `script/targetSepolia/sepoliaInput.json`
-- `script/targetSepolia/sepoliaOutput.json`
-
-## License
-
-Add a license file if you want others to reuse, study, or contribute to the project.

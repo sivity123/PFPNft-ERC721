@@ -49,9 +49,12 @@ contract PFPNftTest is Test {
 
             string memory json = vm.readFile("script/targetSepolia/sepoliaOutput.json");
             string memory key = "$[0].root";
+            string memory keyProof1 = "$[0].proof[0]";
+            string memory keyProof2 = "$[0].proof[2]";
             rootHash = vm.parseBytes32(json.readString(key));
-            P14User1 = 0x40ff9557ba7cd4991b3134ec0f377a26daeb59101c640cd473f9bda3809ace53;
-            P24User1 = 0xe51b722cb73595b07e2c2abe1360ce67e3a6439a8f0f4824cb18e59b7b423297;
+            P14User1 = vm.parseBytes32(json.readString(keyProof1));
+            P24User1 = vm.parseBytes32(json.readString(keyProof2));
+            
             proofOfUser1 = [P14User1, P24User1];
 
             deployer = new DeployPFPNft();
